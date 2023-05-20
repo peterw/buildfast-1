@@ -2,14 +2,7 @@ import openai
 import streamlit as st
 from streamlit_chat import message
 from dotenv import load_dotenv
-import os 
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
 import openai
-from langchain.document_loaders import UnstructuredMarkdownLoader
-from langchain.chains.question_answering import load_qa_chain
-from langchain.chat_models import ChatOpenAI
-from langchain.document_loaders import UnstructuredPDFLoader
 
 load_dotenv()
 
